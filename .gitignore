@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+out/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# NeoForged ModDev runs
+run/
+runs/
+logs/
+
+# Local Maven publish output
+repo/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+.vscode/
+*.code-workspace
+
+# Eclipse
+.apt_generated
+.factorypath
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Data-gen cache (keep generated resources, ignore NeoForge cache)
+.neofgradle/
