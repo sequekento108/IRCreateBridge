@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.ircreatebridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TrackApiUtilMixin",
+    "CreateWalkConnectedTracksMixin",
+    "IrBlockUtilMixin",
+    "IrMovementTrackMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
